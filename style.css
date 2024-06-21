@@ -1,0 +1,96 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+.navbar{
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.navbar a{
+    font-weight: 700;
+}
+
+.navbar a span{
+    font-weight: 800;
+}
+
+h1{
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 700;  
+}
+
+p{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: large;
+
+}
+.nav-pills{
+    font-weight: bold;
+}
+
+img{
+    border-radius: 5px;
+}
+h5{
+    font-family: "Merriweather Sans", sans-serif;
+    text-align: center;
+}
+
+.form-label,.form-control{
+    font-family: "Merriweather Sans", sans-serif;
+
+}
+
+#intro{
+    background-color: lightgray;
+    padding: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+#visit{
+    padding: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#end{
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+   color: antiquewhite;
+}
+i{
+    color: rgb(18, 99, 192);
+    font-size: 20px;
+    
+   
+}
+img:hover{
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+.btn:hover{
+    box-shadow: 5px 5px 15px skyblue;
+}
+nav:hover{
+    font-weight: 50px;
+}
+.card-img:hover{
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+.card-title:hover{
+    color: blue;
+    font-size: 23px;
+    text-decoration: underline;
+}
+.card-text:hover{
+    color: blue;
+    font-size: 23px;
+    text-decoration: underline;
+}
+.card-text:active{
+    color: red;
+}
+.card-title:active{
+    color: red;
+}
+

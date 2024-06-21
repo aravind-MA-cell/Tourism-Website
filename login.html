@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caveat&family=Pacifico&family=Qwitcher+Grypen:wght@700&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="login.css">
+
+<body>
+     
+    <form action="logprocess.php"  method="post" onsubmit="return check()" autocomplete="off">
+        <h1 id="start">LOGIN</h1>
+        
+        <label for="mail" >Email</label>
+        <input type="text" name="em" id="em" >
+        <label for="password" >Password</label>
+        <input type="password" name="pass" id="pass" >
+        <input type="submit" value="login" id="log">
+        <!-- <button>login</button> -->
+        <a href="">Forget Password?</a>
+    </form>
+    <script>
+        function check(){
+           em=document.getElementById('em').value;
+           pass=document.getElementById('pass').value;
+           gmail=/^([a-z0-9])+\@([a-z]{5})+\.([a-z]{3})+$/
+             if(!gmail.test(em)){
+            alert(" please enter your valid email id");
+            return false;
+             }
+           else if(pass==""){
+               alert("please enter password");
+               return false;
+           } 
+           } 
+
+           
+        
+       
+   </script>
+</body>
+</html>
